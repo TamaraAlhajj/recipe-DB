@@ -1,0 +1,46 @@
+doctype html
+//-Tamara Alhajj
+//-100948027
+html
+head
+  title COMP2406 A4
+  link(rel='stylesheet', type='text/css', href='style.css')
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js')
+  script(type='text/javascript', src='recipePage.js')
+body
+  h1 Database-backed Recipe App
+  label(for='recipeSelect') Recipes
+  br
+  select#recipeSelect(name='recipe')
+    option(value='') No recipes
+  br
+  button#recipeViewButton View
+  br
+  br
+  label(for='recipeName') Name
+  br
+  textarea#recipeName(rows='3', cols='50')
+  br
+  br
+  label(for='recipeDuration') Duration
+  br
+  textarea#recipeDuration(rows='3', cols='50')
+  br
+  br
+  label(for='recipeIngredients') Ingredients
+  br
+  textarea#recipeIngredients(rows='15', cols='50')
+  br
+  br
+  label(for='recipeDirections') Directions
+  br
+  textarea#recipeDirections(rows='15', cols='50')
+  br
+  br
+  label(for='recipeNotes') Notes
+  br
+  textarea#recipeNotes(rows='3', cols='50')
+  br
+  br
+  button#recipeSubmitButton Submit
+  p#confirmed &nbsp; &nbsp; Recipes updated &#9989

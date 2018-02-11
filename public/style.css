@@ -1,0 +1,44 @@
+body{
+	background-image: url("background.png");
+	color:black;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	color:black;
+	text-shadow: 1px 2px goldenrod;
+}
+button{
+	margin-top:5px;
+	border-radius:5px;
+	width:125px;
+	padding:4px;
+	font-size: 20px;
+	font-weight: bold;
+}
+label{
+	text-shadow: 1px 2px goldenrod;
+}
+#recipeViewButton{
+	background-color: #e7e7e7; 
+	color: black;
+}
+#recipeSubmitButton{ 
+	background-color: #f44336;
+}
+
+form{ 
+	border:solid 2px silver;
+	border-radius: 10px;
+	padding: 5px;
+	color:white;
+	background-color:#555;
+	box-shadow:3px 3px #000;
+}
+
+#confirmed{
+	display: none;
+	text-shadow: 1px 2px #0f0;
+	color:black;
+}
